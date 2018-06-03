@@ -271,6 +271,16 @@
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRTrackedRemote.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRWaitCursor.cs" />
+     <Compile Include="Assets\Scripts\BallSizeChange.cs" />
+     <Compile Include="Assets\Scripts\EffectAttempts\SecondSuperHotTimeEffect.cs" />
+     <Compile Include="Assets\Scripts\EffectAttempts\SlowMotion.cs" />
+     <Compile Include="Assets\Scripts\EffectAttempts\SlowMotionReal.cs" />
+     <Compile Include="Assets\Scripts\EffectAttempts\SuperHotTimeEffect.cs" />
+     <Compile Include="Assets\Scripts\EffectAttempts\ThirdSuperHotTimeEffect.cs" />
+     <Compile Include="Assets\Scripts\FINALsuperHotTimeEffect.cs" />
+     <Compile Include="Assets\Scripts\SceneManage.cs" />
+     <Compile Include="Assets\Scripts\TestCollision.cs" />
+     <Compile Include="Assets\Scripts\VelocityCap.cs" />
      <None Include="Assets\Oculus\Avatar\Content\Materials\AvatarMaterialStateShader.cginc" />
      <None Include="Assets\Oculus\VR\Resources\OVRMRUnlitTransparent.shader" />
      <None Include="Assets\Oculus\VR\Resources\OVRMRChromaKey.cginc" />

@@ -134,7 +134,7 @@ public class OVRPlayerController : MonoBehaviour
 	/// </summary>
 	public bool EnableRotation = true;
 
-	protected CharacterController Controller = null;
+	public CharacterController Controller = null;
 	protected OVRCameraRig CameraRig = null;
 
 	private float MoveScale = 1.0f;
