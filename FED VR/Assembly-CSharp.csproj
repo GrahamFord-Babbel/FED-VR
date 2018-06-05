@@ -279,6 +279,7 @@
      <Compile Include="Assets\Scripts\EffectAttempts\SuperHotTimeEffect.cs" />
      <Compile Include="Assets\Scripts\EffectAttempts\ThirdSuperHotTimeEffect.cs" />
      <Compile Include="Assets\Scripts\FINALsuperHotTimeEffect.cs" />
+     <Compile Include="Assets\Scripts\HeadRotate.cs" />
      <Compile Include="Assets\Scripts\SceneManage.cs" />
      <Compile Include="Assets\Scripts\TestCollision.cs" />
      <Compile Include="Assets\Scripts\VelocityCap.cs" />
