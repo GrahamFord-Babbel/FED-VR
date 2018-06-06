@@ -38,6 +38,7 @@ public class OVRGrabbable : MonoBehaviour
     [SerializeField]
     protected Collider[] m_grabPoints = null;
 
+
     protected bool m_grabbedKinematic = false;
     protected Collider m_grabbedCollider = null;
     protected OVRGrabber m_grabbedBy = null;
@@ -50,9 +51,10 @@ public class OVRGrabbable : MonoBehaviour
         get { return m_allowOffhandGrab; }
     }
 
-	/// <summary>
-	/// If true, the object is currently grabbed.
-	/// </summary>
+    //make this bool public, so the scene manager script can determine if the racquet has been grabbed?
+    /// <summary>
+    /// If true, the object is currently grabbed.
+    /// </summary>
     public bool isGrabbed
     {
         get { return m_grabbedBy != null; }

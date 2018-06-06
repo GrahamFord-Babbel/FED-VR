@@ -9,11 +9,13 @@ public class HeadRotate : MonoBehaviour {
     public float headTurnTime;
     //public Animation anim;
     public Animator shakeAnim;
+    public AudioSource speechAudio;
     //public string triggerName;
     // Use this for initialization
     void Start () {
         rotateTrue = true;
-
+        shakeAnim = GetComponent<Animator>();
+        speechAudio = GetComponent<AudioSource>();
     }
 	
 	// Update is called once per frame
@@ -21,12 +23,19 @@ public class HeadRotate : MonoBehaviour {
         //print("Time:" + Time.time);
 		if (Time.time > headTurnTime && rotateTrue == true)
         {
-            shakeAnim = GetComponent<Animator>();
-            //Animation.enabled = false;
+
+            //disable animation, so that rotation is possible
             shakeAnim.enabled = false;
+
+            //play audio
+            speechAudio.Play();
+
+            //rotate the DFW character
             DFW = GameObject.Find("DFW");
             DFW.transform.Rotate(0, rotateDegree, 0, Space.World);
             Debug.Log("rotated");
+
+            //disable the effect so it only happens once
             rotateTrue = false;
         }
 	}

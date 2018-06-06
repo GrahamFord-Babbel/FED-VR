@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Oculus/FedIntro5.31.unity
+- path: Assets/Scenes/FEDTunnel6.6.unity
   isLoaded: 1
   isActive: 1
