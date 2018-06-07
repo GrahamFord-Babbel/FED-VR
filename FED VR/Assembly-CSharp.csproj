@@ -271,7 +271,9 @@
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRTrackedRemote.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRWaitCursor.cs" />
+     <Compile Include="Assets\Scripts\ArrowFlash.cs" />
      <Compile Include="Assets\Scripts\BallSizeChange.cs" />
+     <Compile Include="Assets\Scripts\CameraShrink.cs" />
      <Compile Include="Assets\Scripts\CollisionDetect.cs" />
      <Compile Include="Assets\Scripts\EffectAttempts\SecondSuperHotTimeEffect.cs" />
      <Compile Include="Assets\Scripts\EffectAttempts\SlowMotion.cs" />

@@ -63,4 +63,11 @@ public class SceneManage : MonoBehaviour
     {
         SceneManager.LoadScene(levelName);
     }
+
+
+    void OnTriggerEnter(Collider other)
+    {
+        SceneManager.LoadScene(levelName);
+        print("OBJECT NAME" + other.gameObject.name);
+    }
 }
